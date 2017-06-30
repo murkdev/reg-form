@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  background-color: #2D3945;
+  margin: 0;
+  padding: 20px 0;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+h2 {
+  margin-top: 70px;
+  margin-bottom: 0;
+  color: #2D3945;
+}
+
+header p {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+p.comm {
+  color: #CBCED1;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+fieldset {
+  padding: 0;
+  width: 35%;
+  margin: 0 auto;
+  border: none;
+}
+
+input[id="zc"] {
+  width: 30%;
+}
+
+legend {
+  padding: 0;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+label.info {
+  clear: both;
+  float: left;
+  margin: 25px auto;
+}
+
+input[type="text"],
+    [type="email"],
+    [type="tel"],
+    [type="number"],
+    select[id="state"] {
+  float: right;
+  max-width: 450px;
+  width: 100%;
+  height: 50px;
+  margin: 10px auto;
+  padding: 0 15px;
+}
+
+hr {
+  margin: 50px auto;
+  width: 35%;
+}
+
+input::placeholder {
+  text-align: right;
+  padding: 15px;
+  font-size: 0.9em;
+  font-style: italic;
+  opacity: 0.5;
+}
+
+textarea{
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  margin: 25px auto;
+  background-color: #4EBBB5;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+input, textarea, select {
+  background-color: #EFF0F1;
+  border: none;
+  border-radius: 5px;
+}
+
+label, fieldset:nth-of-type(2) p {
+  font-size: 0.9em;
+}
+
+#js {
+  margin-bottom: 15px;
+}
